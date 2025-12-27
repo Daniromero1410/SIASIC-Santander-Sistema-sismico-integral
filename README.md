@@ -350,8 +350,7 @@ Este proyecto genera insumos para:
 ## Autor
 
 **Daniel Romero**  
-Ingeniero Civil  
-Especialista en Análisis de Datos y Sistemas de Información Geográfica
+Ingeniero de Software 
 
 **Afiliación:**  
 Universidad de Santander (UDES)  
