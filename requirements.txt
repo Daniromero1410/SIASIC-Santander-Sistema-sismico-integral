@@ -1,0 +1,47 @@
+# SIASIC-Santander: Sistema de Análisis Sísmico Integral
+# Dependencias del proyecto
+
+# Procesamiento de datos
+pandas>=1.5.0
+numpy>=1.23.0
+
+# Visualización
+matplotlib>=3.7.0
+seaborn>=0.12.0
+plotly>=5.17.0
+
+# Mapas interactivos
+folium>=0.15.0
+
+# Análisis geoespacial y GIS
+geopandas>=0.14.0
+shapely>=2.0.0
+pyshp>=2.3.1
+fiona>=1.9.0
+
+# Utilidades
+python-dateutil>=2.8.0
+
+# Jupyter support (opcional para desarrollo local)
+jupyter>=1.0.0
+ipython>=8.0.0
+notebook>=7.0.0
+
+# NOTAS DE INSTALACIÓN:
+# 
+# - Geopandas puede requerir GDAL instalado en el sistema
+# - Para Windows, se recomienda instalar desde conda:
+#   conda install -c conda-forge geopandas
+# 
+# - Google Colab incluye la mayoría de estas dependencias
+# - Instalación adicional en Colab:
+#   !pip install folium geopandas pyshp
+#
+# INSTALACIÓN COMPLETA:
+# pip install -r requirements.txt
+#
+# INSTALACIÓN MÍNIMA (solo análisis):
+# pip install pandas numpy matplotlib seaborn plotly
+#
+# INSTALACIÓN GIS (para exportación):
+# pip install geopandas shapely pyshp folium
